@@ -6,6 +6,6 @@ fn main() {
 
     match file_utils::output(file_name, content) {
         Ok(_) => println!("Success."),
-        Err(_) => println!("Error."), 
+        Err(_) => println!("Error."),
     }
 }
